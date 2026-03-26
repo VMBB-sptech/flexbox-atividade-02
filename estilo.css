@@ -4,6 +4,7 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
+    
 }
 
 .base {
@@ -36,23 +37,41 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
-    
+    /* deixando na posição "padrão", sendo ela mudando o eixo de posição dos quadrados da vertical para o horizontal */
+    flex-direction: row;
+    display : flex;
 }
 
 .container2 {
-    
+    /* Colocando  os quadrados no final da barra horizontal*/
+    flex-direction: row;
+    display : flex;
+    justify-content : flex-end;
 }
 
 .container3 {
-   
+    /* Colocando os quadrados no centro da barra horizontal */
+   flex-direction: row;
+    display : flex;
+    justify-content : center;
 }
 
 .container4 {
-    
+    /* Colocando um espaçamento por igual entre OS QUADRADOS */
+    flex-direction: row;
+    display : flex;
+    justify-content: space-between
 }
 .container5 {
-    
+    /* Colocando um espaçamento por igual entre TODOS OS OBJETOS  */
+    /* isto é : um espaçamento por igual entre as bordas dos objetos, parede e quadrados tem a mesma distancia */
+    flex-direction: row;
+    display : flex;
+    justify-content: space-around;
 }
-.container-6 {
-    
+.container6 {
+    /* colocando um espaçamento por igual estre os quadrados, e aplicando isto em um espaçamento entre o quadrado e a borda */
+    flex-direction: row;
+    display : flex;
+    justify-content: space-evenly;
 }
